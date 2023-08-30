@@ -56,7 +56,7 @@ class BlackjackSpel:
             "De säger att övning ger färdighet. Fortsätt öva!",
         ]
         self.dealer_arga_fraser = [
-            "Hur lyckades du med det?",
+            "Hur lyckades du med det? Du har en bra programmerings lärare Mahmud ellerhur?",
             "Du måste fuska...",
             "Det här kan inte vara sant!",
             "Otroligt!",
