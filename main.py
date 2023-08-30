@@ -50,7 +50,7 @@ class BlackjackSpel:
         self.pengar = 0
         self.insats = 0
         self.dealer_skämt = [
-            "Jag gissar att du inte är nästa Rain Man.",
+            "Du borde byta karriär",
             "Lyckan var inte på din sida den här gången.",
             "Kanske prova ett annat spel?",
             "De säger att övning ger färdighet. Fortsätt öva!",
@@ -78,7 +78,7 @@ class BlackjackSpel:
         self.dealer_hand.rensa()
 
         self.spelare_hand.lägg_till_kort(self.kortlek.dra_kort())
-        self.dealer_hand.lägg_till_kort(self.kortlek.dra_kort())  # Du ser dealerns första kort
+        self.dealer_hand.lägg_till_kort(self.kortlek.dra_kort())  # För att du ska kunna se dealerna första kort i blackjack.
         self.spelare_hand.lägg_till_kort(self.kortlek.dra_kort())
         self.dealer_hand.lägg_till_kort(self.kortlek.dra_kort())
 
