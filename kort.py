@@ -14,4 +14,4 @@ class Kort:
     def __str__(self):
         return f"{self.rank} av {self.färg}" # Kort
 
-    class kortlet
+    class kortlek
