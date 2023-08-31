@@ -7,8 +7,8 @@ class BlackjackSpel:
         self.kortlek = Kortlek()
         self.spelare_hand = Hand()
         self.dealer_hand = Hand()
-        self.pengar = 0
-        self.insats = 0
+        self.pengar = 1
+        self.insats = 1
         self.dealer_skämt = [
             "Du borde byta karriär",
             "Lyckan var inte på din sida den här gången.",
