@@ -16,4 +16,4 @@ class Kort:
 
     class kortlek:
         def__init__(self):
-        return
+        return #provar commit & push funktionen på github
