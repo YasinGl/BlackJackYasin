@@ -12,8 +12,14 @@ class Kort:
             self.värde = int(rank)
 
     def __str__(self):
-        return f"{self.rank} av {self.färg}" # Kort
+        return f"{self.rank} av {self.färg}"
 
-    class kortlek:
-        def__init__(self):
-        return #provar commit & push funktionen på github
+class Kortlek:
+    def __init__(self):
+        färger = ["Hjärter", "Ruter", "Klöver", "Spader"]
+        ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Knekt", "Dam", "Kung", "Ess"]
+        self.kort = [Kort(färg, rank) for färg in färger for rank in ranks]
+        random.shuffle(self.kort)
+
+    def dra_kort(self):
+        return self.kort.pop()
