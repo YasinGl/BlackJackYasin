@@ -101,7 +101,7 @@ class BlackjackSpel:
                             print("Det blir lika (push). Ingen vinner eller förlorar.")
                         break
 
-if __name__ == "__main__": #test
+if __name__ == "__main__": #t
     spel = BlackjackSpel()
     spel.spela()
     print("Spelet är slut. Tack för att du spelade!")
