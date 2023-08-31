@@ -10,7 +10,6 @@ class Kort:
             self.värde = 11
         else:
             self.värde = int(rank)
-
     def __str__(self):
         return f"{self.rank} av {self.färg}"
 
