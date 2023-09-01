@@ -49,7 +49,7 @@ class BlackjackSpel:
                 try:
                     self.pengar = int(input("Välkommen till Blackjack! Ange hur mycket pengar du vill börja med (Pengar som du lägger in i casinot): "))
                     if self.pengar <= 0:
-                        print("Ange en positiv heltalsmängd.")
+                        print("Ange en positiv heltalsmängd. (Tex 100)")
                 except ValueError:
                     print("Ogiltigt värde. Ange en positiv heltalsmängd.")
 
