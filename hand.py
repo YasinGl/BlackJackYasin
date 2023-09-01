@@ -6,7 +6,7 @@ class Hand:
         self.kort.append(kort)  # Lägger till ett kort i handen
 
     def rensa(self):
-        self.kort = []  # Tömmer handen genom att återställa kortlistan
+        self.kort = []  # Tömmer handen genom att återställa kortlistans
 
     def få_värde(self):
         värde = sum(kort.värde for kort in self.kort)  # Beräknar det aktuella värdet av handen genom att summera kortens värden
