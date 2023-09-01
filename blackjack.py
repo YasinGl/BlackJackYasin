@@ -1,6 +1,5 @@
 import random
-from kort import Kortlek
-from hand import Hand
+
 
 class BlackjackSpel:
     def __init__(self):
@@ -101,7 +100,7 @@ class BlackjackSpel:
                             print("Det blir lika (push). Ingen vinner eller förlorar.")
                         break
 
-if __name__ == "__main__": #t
+if __name__ == "__main__":
     spel = BlackjackSpel()
     spel.spela()
     print("Spelet är slut. Tack för att du spelade!")
