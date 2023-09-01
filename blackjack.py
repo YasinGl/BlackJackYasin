@@ -47,7 +47,7 @@ class BlackjackSpel:
             self.pengar = 0
             while self.pengar <= 0:
                 try:
-                    self.pengar = int(input("Välkommen till Blackjack! Ange hur mycket pengar du vill börja med: "))
+                    self.pengar = int(input("Välkommen till Blackjack! Ange hur mycket pengar du vill börja med (Pengar som du lägger in i casinot): "))
                     if self.pengar <= 0:
                         print("Ange en positiv heltalsmängd.")
                 except ValueError:
