@@ -1,6 +1,6 @@
 import random
 from kort import Kortlek  # Importera Kortlek-klassen från kort.py
-from hand import Hand    # Importera Hand-klassen från hand.py
+from hand import Hand    # Importera Hand-klassen från hand.pys
 
 class BlackjackSpel:
     def __init__(self):
