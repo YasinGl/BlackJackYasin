@@ -91,11 +91,11 @@ class BlackjackSpel:
                             self.pengar += self.insats * 2
                             print(random.choice(self.dealer_arga_fraser))
                         elif self.spelare_hand.få_värde() > self.dealer_hand.få_värde():
-                            print("Grattis! Du vann.")
+                            print("Grattis! Du vann :)")
                             self.pengar += self.insats * 2
                             print(random.choice(self.dealer_arga_fraser))
                         elif self.spelare_hand.få_värde() < self.dealer_hand.få_värde():
-                            print("Dealern vinner.")
+                            print("Dealern vinner :( ")
                             self.pengar -= self.insats
                         else:
                             print("Det blir lika (push). Ingen vinner eller förlorar.")
