@@ -2,7 +2,7 @@ import random
 
 class Kort:
     def __init__(self, färg, rank):
-        self.färg = färg  # Färgen på kortet (t.ex. Hjärter, Ruter, Klöver, Spader)
+        self.färg = färg  # Färgen på kortet (t.ex. Hjärter, Ruter, Klöver, Spader))
         self.rank = rank  # Ranken på kortet (t.ex. 2, 3, Ess, Knekt, Dam, Kung)
         if rank in ['Knekt', 'Dam', 'Kung']:
             self.värde = 10  # Värdet för Knekt, Dam och Kung är 10 i Blackjack
