@@ -25,7 +25,7 @@ class BlackjackSpel:
     def satsa_pengar(self):
         while True:
             try:
-                self.insats = int(input("Hur mycket pengar vill du satsa? "))
+                self.insats = int(input("Hur mycket pengar vill du satsa från din kredit? "))
                 if self.insats > self.pengar:
                     print("Du har inte tillräckligt med pengar.")
                 else:
